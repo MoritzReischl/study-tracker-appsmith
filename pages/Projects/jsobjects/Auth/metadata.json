@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "68962b6e24e0ad08ac9907ef_be64a45e-788a-4ac9-849c-2919683b02be",
+  "id": "Projects_Auth",
+  "unpublishedCollection": {
+    "name": "Auth",
+    "pageId": "Projects",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "_lock",
+        "value": "false"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"project_id": {{InputProject.selectedOptionValue}},
+	"activity_id": {{InputActivity.selectedOptionValue}},
+	"justification": {{InputJustification.text}} 
+	// "user_id": taken from the access token of the authorization header
+}

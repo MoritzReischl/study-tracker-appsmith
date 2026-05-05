@@ -1,0 +1,11 @@
+{
+	"project_id": {{UpdateProjectInput.selectedOptionValue}},
+	"activity_id": {{UpdateActivityInput.selectedOptionValue}},
+	"input_qn_proc_o": {{UpdateQuantityInput.text}},
+	"output_qn_gen_o": {{UpdateQuantityGenerated.text ? UpdateQuantityGenerated.text : null}},
+	"qual_o": {{UpdateQualityInput.text}},
+	"time_inv_o_minutes": {{UpdateMinutesInput.text}},
+	"timestamp_start_o": {{UpdateStartTimestampInput.selectedDate}},
+	"timezone": {{moment.tz.guess()}},
+	"description": {{UpdateDescriptionInput.text ? UpdateDescriptionInput.text : null}},
+}

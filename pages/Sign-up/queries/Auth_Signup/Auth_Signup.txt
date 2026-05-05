@@ -1,0 +1,7 @@
+{
+  "email": "{{ this.params.email }}",
+  "password": "{{ this.params.password }}",
+	"data": {
+    "full_name": "{{ this.params.username || '' }}"
+  }
+}

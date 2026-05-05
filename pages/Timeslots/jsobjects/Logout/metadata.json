@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68962b6e24e0ad08ac9907ef_384635b3-ef23-4406-a975-cd0d63facb80",
+  "id": "Timeslots_Logout",
+  "unpublishedCollection": {
+    "name": "Logout",
+    "pageId": "Timeslots",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

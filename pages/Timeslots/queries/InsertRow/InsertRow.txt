@@ -1,0 +1,7 @@
+{
+	"name": {{InputName.text}},
+	"date_start": {{InputStart.selectedDate}},
+	"date_end": {{InputEnd.selectedDate}}, // selected date is for data, formatted date is for display
+	"holidays": {{InputHolidays.text}} 
+	// "user_id": taken from the access token of the authorization header
+}

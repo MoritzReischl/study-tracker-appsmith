@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68962b6e24e0ad08ac9907ef_cfb12fd8-0df2-4637-9f1d-7eb5ad868d64",
+  "id": "Tasks_Auth",
+  "unpublishedCollection": {
+    "name": "Auth",
+    "pageId": "Tasks",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"name": {{UpdateName.text}},
+	"date_start": {{UpdateStart.selectedDate}},
+	"date_end": {{UpdateEnd.selectedDate? UpdateEnd.selectedDate+",":null}},
+	"holidays": {{UpdateHolidays.text? UpdateHolidays.text: null}}
+}

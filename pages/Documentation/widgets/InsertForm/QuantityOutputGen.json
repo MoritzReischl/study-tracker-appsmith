@@ -1,0 +1,74 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 42,
+  "boxShadow": "none",
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "NUMBER",
+  "isDisabled": "{{ActivityInput.isDisabled||ActivityInput.selectedOptionLabel===\"\"}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{!ActivityInput.isDisabled&&ActivityInput!=null&&GetSelectedActivity.data[0]?.output_qn_gen_g_metric!=null}}",
+  "key": "jm2d61e8vk",
+  "label": "Output quantity generated: {{GetSelectedActivity.data[0].output_qn_gen_g_metric}}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 32,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 18,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "originalBottomRow": 43,
+  "originalTopRow": 36,
+  "parentColumnSpace": 25.419921875,
+  "parentId": "vmzkmr71f1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 35,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "yjci06tbty",
+  "widgetName": "QuantityOutputGen"
+}

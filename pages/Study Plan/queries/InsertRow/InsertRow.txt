@@ -1,0 +1,7 @@
+{
+	"name": {{input_name.text}},
+	"start_timestamp": {{input_start_timestamp.selectedDate}},
+	"deadline": {{input_deadline.selectedDate}}, // selected date is for data, formatted date is for display
+	"timeline_id": {{input_timeline_id.selectedOptionValue}} 
+	// "user_id": taken from the access token of the authorization header
+}

@@ -1,0 +1,6 @@
+{
+	"name": {{update_name.text}},
+	"start_timestamp": {{update_start_timestamp.selectedDate}},
+	"deadline": {{update_deadline.selectedDate? update_deadline.selectedDate+",":null}},
+	"timeline_id": {{update_timeline_id.selectedOptionValue}} 
+}

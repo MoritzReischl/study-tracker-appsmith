@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68962b6e24e0ad08ac9907ef_e075704b-6cf2-4ad5-aff3-b6d61421fa76",
+  "id": "Timelines_Logout",
+  "unpublishedCollection": {
+    "name": "Logout",
+    "pageId": "Timelines",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

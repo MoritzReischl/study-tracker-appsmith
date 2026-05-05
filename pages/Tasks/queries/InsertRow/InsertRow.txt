@@ -1,0 +1,11 @@
+{
+	"project_id": {{InputProject.selectedOptionValue}},
+	"activity_id": {{InputActivity.selectedOptionValue}},
+	"assignment_id": {{InputAssignment.selectedOptionValue}},
+	"main_task_name": {{InputMainTask.text}},
+	"sub_task_name": {{InputSubTask.text}},
+	"input_qn_proc_g": {{InputQuantityProcGoal.text ? InputQuantityProcGoal.text : null}},
+	"output_qn_gen_g": {{OutputQuantityGenGoal.text ? OutputQuantityGenGoal.text : null}},
+	"description": {{InputDescription.text}}
+	// "user_id": taken from the access token of the authorization header
+}

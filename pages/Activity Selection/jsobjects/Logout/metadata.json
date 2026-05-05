@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68962b6e24e0ad08ac9907ef_49d26b86-a28f-4e3c-8cc0-fd20a65c0e2a",
+  "id": "Activity Selection_Logout",
+  "unpublishedCollection": {
+    "name": "Logout",
+    "pageId": "Activity Selection",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

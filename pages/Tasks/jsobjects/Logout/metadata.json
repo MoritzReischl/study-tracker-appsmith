@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68962b6e24e0ad08ac9907ef_d7eead65-df44-403c-ae7b-a91837d7487f",
+  "id": "Tasks_Logout",
+  "unpublishedCollection": {
+    "name": "Logout",
+    "pageId": "Tasks",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

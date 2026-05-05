@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68962b6e24e0ad08ac9907ef_9686d081-7c3d-4566-ac89-1697a187caac",
+  "id": "Timeslots_Auth",
+  "unpublishedCollection": {
+    "name": "Auth",
+    "pageId": "Timeslots",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 64,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "zls8odkb5f",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "originalBottomRow": 65,
+  "originalTopRow": 54,
+  "overflow": "NONE",
+  "parentColumnSpace": 14.25,
+  "parentId": "vmzkmr71f1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldTruncate": false,
+  "text": "{{ \n  GetSelectedTaskObserved.data\n    .map(row => {\n      const ts = row.timestamp_start_o;\n      const d  = ts ? new Date(ts) : null; // works for ISO strings or epoch numbers\n      const when = d ? d.toLocaleString(undefined, { dateStyle: \"medium\", timeStyle: \"short\" }) : \"-\";\n      return `<p>- ${row.description} [${when}]</p>`;\n    })\n    .join('')\n}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 53,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "1fpueum724",
+  "widgetName": "Text22"
+}

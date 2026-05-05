@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "68962b6e24e0ad08ac9907ef_9fae5aba-8916-4818-80e0-4786e21de232",
+  "id": "Documentation_Auth",
+  "unpublishedCollection": {
+    "name": "Auth",
+    "pageId": "Documentation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "_refreshing",
+        "value": "null"
+      }
+    ]
+  }
+}

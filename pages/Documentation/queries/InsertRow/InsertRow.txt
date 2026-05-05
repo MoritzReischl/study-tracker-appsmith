@@ -1,0 +1,12 @@
+{
+	"project_id": {{ProjectInput.selectedOptionValue}},
+	"activity_id": {{ActivityInput.selectedOptionValue}},
+	"input_qn_proc_o": {{QuantityInputProc.text}},
+	"output_qn_gen_o": {{QuantityOutputGen.text}},
+	"qual_o": {{QualityInput.text}},
+	"time_inv_o_minutes": {{MinutesInput.text}},
+	"timestamp_start_o": {{StartTimestampInput.selectedDate}},
+	"timezone": {{moment.tz.guess()}},
+	"task_id": {{TaskInput.isVisible&&TaskInput.isValid&&TaskInput.selectedOptionValue!=""?TaskInput.selectedOptionValue:null}},
+	"description": {{DescriptionInput.text}},
+}

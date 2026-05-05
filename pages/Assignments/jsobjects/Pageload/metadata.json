@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68962b6e24e0ad08ac9907ef_3a506610-d3c3-4a01-98f8-af142f8b08f8",
+  "id": "Assignments_Pageload",
+  "unpublishedCollection": {
+    "name": "Pageload",
+    "pageId": "Assignments",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

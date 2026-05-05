@@ -1,0 +1,8 @@
+{
+	"project_id": {{InputProject.selectedOptionValue}},
+	"activity_id": {{InputActivity.selectedOptionValue}},
+	"name": {{InputName.text}},
+	"deadline": {{InputDeadline.selectedDate}}, // selected date is for data, formatted date is for display
+	"hours_inv_g": {{InputHoursG.text}}
+	// "user_id": taken from the access token of the authorization header
+}
