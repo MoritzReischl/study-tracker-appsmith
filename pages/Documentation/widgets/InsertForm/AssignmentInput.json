@@ -59,7 +59,7 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 25,
   "needsErrorInfo": false,
-  "onOptionChange": "{{Defaults.onAssignmentChange(AssignmentInput.selectedOptionValue);}}",
+  "onOptionChange": "{{Defaults.onAssignmentChange(AssignmentInput.selectedOptionValue);\nGetSelectedAssignmentObserved.run()}}",
   "optionLabel": "label",
   "optionValue": "value",
   "originalBottomRow": 29,
