@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 76,
+  "bottomRow": 78,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -14,16 +14,23 @@
     },
     {
       "key": "text"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "0.875rem",
   "fontStyle": "",
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "{{AssignmentInput.selectedOptionValue != null && AssignmentInput.selectedOptionValue != \"\" &&GetSelectedAssignmentObserved.data?.length > 0}}",
   "key": "zls8odkb5f",
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
