@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 53,
+  "bottomRow": 43,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -31,8 +34,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "originalBottomRow": 54,
-  "originalTopRow": 50,
+  "originalBottomRow": 43,
+  "originalTopRow": 39,
   "overflow": "NONE",
   "parentColumnSpace": 14.25,
   "parentId": "vmzkmr71f1",
@@ -41,10 +44,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "History",
+  "text": "{{GetSelectedTaskGoals.data?.length > 0 ? \"Task history\" : \"Assignment history\"}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 49,
+  "topRow": 39,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

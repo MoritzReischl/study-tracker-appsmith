@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 35,
+  "bottomRow": 32,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,7 +30,7 @@
   "fontSize": "0.875rem",
   "fontStyle": "",
   "isLoading": false,
-  "isVisible": "{{!ActivityInput.isDisabled&&ActivityInput!=null&&GetSelectedActivity.data[0]?.output_qn_gen_g_metric!=null}}",
+  "isVisible": "{{GetSelectedAssignment.data!=null&&GetSelectedAssignment.data.code!==\"22P02\"&& SelectAssignmentOptions.data?.length > 0 && GetSelectedAssignment.data?.length > 0 && GetSelectedAssignment.data[0]?.output_qn_gen_g!=null}}",
   "key": "0n092ejqh5",
   "leftColumn": 32,
   "maxDynamicHeight": 9000,
@@ -41,8 +41,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 25,
   "needsErrorInfo": false,
-  "originalBottomRow": 36,
-  "originalTopRow": 31,
+  "originalBottomRow": 32,
+  "originalTopRow": 27,
   "overflow": "NONE",
   "parentColumnSpace": 25.484375,
   "parentId": "vmzkmr71f1",
@@ -51,10 +51,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "Remaining: {{GetSelectedTaskGoals.data[0].output_qn_gen_g-GetSelectedTaskObserved.data.reduce((sum, item) => sum + Number(item.output_qn_gen_o || 0), 0)}} (Goal total: {{GetSelectedTaskGoals.data[0].output_qn_gen_g}}, Processed: {{GetSelectedTaskObserved.data.reduce((sum, item) => sum + Number(item.output_qn_gen_o || 0), 0)}})",
+  "text": "{{\n(\n// Task output metric\nGetSelectedTaskGoals.data?.length > 0 && !!GetSelectedTaskGoals.data[0].description ?\nGetSelectedTaskGoals.data[0].description\n: \n// Activity output metric\nGetSelectedActivity.data[0].output_qn_gen_g_metric\n)\n+\n\" remaining: \"\n+\n(\nTaskInput.selectedOptionValue ?\nGetSelectedTaskGoals.data[0].output_qn_gen_g-GetSelectedTaskObserved.data.reduce((sum, item) => sum + Number(item.output_qn_gen_o || 0), 0)\n:\nGetSelectedAssignment.data[0].output_qn_gen_g-Number(GetSelectedAssignment.data[0].output_qn_gen_o_sum || 0)\n)\n}} \nGoal: {{TaskInput.selectedOptionValue ? GetSelectedTaskGoals.data[0].output_qn_gen_g : GetSelectedAssignment.data[0].output_qn_gen_g}} - produced: {{TaskInput.selectedOptionValue ? GetSelectedTaskObserved.data.reduce((sum, item) => sum + Number(item.output_qn_gen_o || 0), 0) : Number(GetSelectedAssignment.data[0].output_qn_gen_o_sum || 0)}}",
   "textAlign": "LEFT",
   "textColor": "#2e3d49",
-  "topRow": 31,
+  "topRow": 27,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

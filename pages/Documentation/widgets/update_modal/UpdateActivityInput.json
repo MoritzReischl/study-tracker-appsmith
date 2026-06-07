@@ -62,7 +62,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "serverSideFiltering": false,
-  "sourceData": "{{SelectAllActivities.data.map(row => ({value: row.activity_id, label: row.src_activities.name+\" (\"+[row.qn_g_metric, row.ql_g_metric].filter(Boolean).join(\", \")+\")\"}))}}",
+  "sourceData": "{{SelectAllUpdateActivities.map(row => ({value: row.activity_id, label: row.src_activities.name+\" (\"+[row.qn_g_metric, row.ql_g_metric].filter(Boolean).join(\", \")+\")\"}))}}",
   "topRow": 4,
   "type": "SELECT_WIDGET",
   "version": 1,

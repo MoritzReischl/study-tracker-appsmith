@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 64,
+  "bottomRow": 76,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -34,8 +34,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "originalBottomRow": 65,
-  "originalTopRow": 54,
+  "originalBottomRow": 47,
+  "originalTopRow": 43,
   "overflow": "NONE",
   "parentColumnSpace": 14.25,
   "parentId": "vmzkmr71f1",
@@ -44,10 +44,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "{{ \n  GetSelectedTaskObserved.data\n    .map(row => {\n      const ts = row.timestamp_start_o;\n      const d  = ts ? new Date(ts) : null; // works for ISO strings or epoch numbers\n      const when = d ? d.toLocaleString(undefined, { dateStyle: \"medium\", timeStyle: \"short\" }) : \"-\";\n      return `<p>- ${row.description} [${when}]</p>`;\n    })\n    .join('')\n}}",
+  "text": "{{ \n  (\n    GetSelectedTaskObserved?.data?.length > 0\n      ? GetSelectedTaskObserved.data\n      : GetSelectedAssignmentObserved.data || []\n  )\n    .map(row => {\n      const ts = row.timestamp_start_o;\n      const d  = ts ? new Date(ts) : null;\n      const when = d ? d.toLocaleString(undefined, { dateStyle: \"medium\", timeStyle: \"short\" }) : \"-\";\n      return `<p>- ${row.description} [${when}]</p>`;\n    })\n    .join('')\n}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 53,
+  "topRow": 43,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
