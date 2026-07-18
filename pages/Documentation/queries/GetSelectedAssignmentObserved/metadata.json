@@ -38,6 +38,10 @@
         {
           "key": "order",
           "value": "timestamp_start_o.desc"
+        },
+        {
+          "key": "assignment_id",
+          "value": "eq.{{appsmith.store.defaultAssignmentId}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -58,6 +62,9 @@
       },
       {
         "key": "queryParameters[2].value"
+      },
+      {
+        "key": "queryParameters[4].value"
       }
     ],
     "name": "GetSelectedAssignmentObserved",

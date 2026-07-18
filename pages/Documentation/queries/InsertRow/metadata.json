@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"project_id\": {{ProjectInput.selectedOptionValue}},\n\t\"activity_id\": {{ActivityInput.selectedOptionValue}},\n\t\"input_qn_proc_o\": {{QuantityInputProc.text}},\n\t\"output_qn_gen_o\": {{QuantityOutputGen.text}},\n\t\"qual_o\": {{QualityInput.text}},\n\t\"time_inv_o_minutes\": {{MinutesInput.text}},\n\t\"timestamp_start_o\": {{StartTimestampInput.selectedDate}},\n\t\"timezone\": {{moment.tz.guess()}},\n\t\"task_id\": {{TaskInput.isVisible&&TaskInput.isValid&&TaskInput.selectedOptionValue!=\"\"?TaskInput.selectedOptionValue:null}},\n\t\"description\": {{DescriptionInput.text}},\n}",
+      "body": "{\n\t\"project_id\": {{ProjectInput.selectedOptionValue}},\n\t\"activity_id\": {{ActivityInput.selectedOptionValue}},\n\t\"input_qn_proc_o\": {{QuantityInputProc.text}},\n\t\"output_qn_gen_o\": {{QuantityOutputGen.text}},\n\t\"qual_o\": {{QualityInput.text}},\n\t\"time_inv_o_minutes\": {{MinutesInput.text}},\n\t\"timestamp_start_o\": {{StartTimestampInput.selectedDate}},\n\t\"timezone\": {{moment.tz.guess()}},\n\t\"task_id\": {{TaskInput.isVisible&&TaskInput.isValid&&TaskInput.selectedOptionValue!=\"\"?TaskInput.selectedOptionValue:null}},\n\t\"description\": {{DescriptionInput.text}},\n\t\"assignment_id\": {{AssignmentInput.selectedOptionValue}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

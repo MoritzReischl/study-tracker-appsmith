@@ -28,6 +28,9 @@
   "dynamicTriggerPathList": [
     {
       "key": "onOptionChange"
+    },
+    {
+      "key": "onDropdownClose"
     }
   ],
   "isDisabled": false,
@@ -50,6 +53,7 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
+  "onDropdownClose": "",
   "onOptionChange": "{{Defaults.onProjectChange(ProjectInput.selectedOptionValue);}}",
   "optionLabel": "label",
   "optionValue": "value",
