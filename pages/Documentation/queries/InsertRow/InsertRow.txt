@@ -9,5 +9,5 @@
 	"timezone": {{moment.tz.guess()}},
 	"task_id": {{TaskInput.isVisible&&TaskInput.isValid&&TaskInput.selectedOptionValue!=""?TaskInput.selectedOptionValue:null}},
 	"description": {{DescriptionInput.text}},
-	"assignment_id": {{AssignmentInput.selectedOptionValue}}
+	"assignment_id": {{ActivityInput.selectedOptionValue && SelectAssignmentOptions.data?.length > 0? AssignmentInput.selectedOptionValue : null}}
 }
